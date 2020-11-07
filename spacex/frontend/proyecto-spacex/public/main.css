@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*********** Helpers class ***********/
+.titles {
+  display: inline;
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.titles1 {
+  display: inline;
+  font-family: 'Anton', sans-serif;
+  font-size: 2.35rem !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding-top: 0.4rem;
+}
+
+.line {
+  border-top: 3px solid coral;
+}
+
+#app {
+  background: #000a14;
+}
+
+.full-page {
+  min-height: 100vh;
+}
+
+.page-80 {
+  min-height: 80vh;
+}
+
+a {
+  color: #3273dc !important;
+}
+
+a:hover {
+  color: #9c9c9c !important;
+}
+
+.has-background-darkblue {
+  background: #000a14 !important;
+}
+
+.has-background-blue {
+  background:  #1a232c !important;
+  color: #fff !important;
+}
+
+.has-text-blue {
+  color: #3273dc !important;
+}
+
+.has-background-blue th, .has-background-blue td {
+  color: #fff !important;
+}
+
+.is-blue {
+  background: #3273dc !important;
+  border: #3273dc !important;
+}
+
+.is-coral {
+  background: coral !important;
+  border: coral !important;
+  color: #fff !important;
+}
+
+.is-coral:hover {
+  background: rgb(248, 119, 71) !important;
+  border: rgb(248, 119, 71) !important;
+  color: #fff !important;
+}
+
+.txt-justify {
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+
+/*********** Navbar ***********/
+
+.navbar-link:not(.is-arrowless)::after {
+  border-color: #3273dc !important;
+}
+
+.link-admin, .menu-label {
+  color: #fff !important;
+}
+
+.navbar-burger {
+  color: #fff !important;
+}
+
+.navbar-item, .navbar-link {
+  color: #fff !important;
+}
+
+.navbar-item :hover, .navbar-link :hover {
+  color: #333 !important;
+}
+
+.bg-dark:hover {
+  background-color: #fff !important;
+  transition: 0.3s;
+}
+
+
+/*********** Home ***********/
+.hero-home {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  position: absolute;
+  top: 50px;
+  right: 75px;
+}
+
+
+/*********** Missions ***********/
+.hero-mission {
+  background-image: url('./images/astronaut-3840x2160-stars-space-galaxy-5k-17812.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sel select, .txt textarea {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid white !important;
+  border-radius: 20px !important;
+}
+
+.sel select option {
+  color: #000 !important;
+}
+
+.sel select::placeholder, .txt textarea::placeholder, .datepicker input::placeholder {
+  color: white !important;
+  opacity: 0.6 !important;
+}
+
+.sel select:focus, .txt textarea:focus, .datepicker input:focus {
+  outline: 0 !important;
+  border-color: coral !important;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: #3273dc !important;
+}
+
+.datepicker input {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid white !important;
+  border-radius: 20px !important;
+}
+
+.datepicker input::placeholder {
+  padding-left: 0.4rem;
+}
+
+.card-footer-mission {
+  border-top: none !important;
+}
+
+.card-footer-mission .card-footer-item:not(:last-child) {
+  border-right: none !important;
+}
+
+
+/*********** Login // Register ***********/
+.vue-part {
+  height: 100vh;
+}
+
+.logo {
+  margin-left: 80px;
+  width: 190px;
+}
+
+#container-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-size {
+  max-width: 480px !important;
+  z-index: 20;
+}
+
+.form .input {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid white !important;
+  border-radius: 20px !important;
+}
+
+.form .input::placeholder {
+  color: white !important;
+  opacity: 0.6 !important;
+}
+
+.form .input:focus {
+  outline: 0 !important;
+  border-color: coral !important;
+}
+
+.btn {
+  border-radius: 25px !important;
+  background: coral !important;
+  border-color: coral !important;
+  color: white !important;
+}
+
+.btn:hover {
+  background: coral !important;
+  border-color: coral !important;
+}
+
+
+/*********** Blog ***********/
+.card-blog {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0.75rem !important;
+  color: #fff !important;
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100% !important;
+}
+
+.card-blog:hover {
+  /* top: -5px; */
+  box-shadow: 0 0 6px 2px rgba(255,255,255, 0.1) !important;
+  transition: 0.3s !important;
+}
+
+.card-blog .title a {
+  text-transform: uppercase;
+}
+
+.card-blog .title a:hover {
+  text-decoration: underline;
+}
+
+.padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hijo {
+  min-width: 500px;
+}
+
+
+/*********** Destinations & Spacecrafts ***********/
+.btn-white {
+  border: 2px solid white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding: 10px;
+  width: 140px;
+  color: #fff !important;
+}
+
+.btn-white:hover, .btn-active {
+  background-color: #fff;
+  color: #000a14 !important;
+  transition: 0.3s;
+}
+
+.card-header img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.4rem;
+  transform: scale(1.15);
+}
+
+
+
+/***** Mobile Responsive *****/
+@media (max-width: 545px) {
+
+/* Missions */
+.titles1 {
+  font-size: 2rem !important;
+}
+
+}
+
+@media (max-width: 465px) {
+
+  /* Missions */
+  .titles1 {
+    font-size: 1.2rem !important;
+  }
+  
+  }
+
+@media (max-width: 350px) {
+
+  /* Missions */
+  .titles1 {
+    font-size: 1rem !important;
+  }
+  
+  }
