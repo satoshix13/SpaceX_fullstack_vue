@@ -8,3 +8,9 @@ This is the final fullstack project made with Vue and Express.js frameworks. Acc
 3) Install frontend dependencies with yarn
 4) Run both frontend and backend from different terminals
 5) Enjoy
+
+![](spacex/frontend/proyecto-spacex/public/images/home%20page.jpg)
+![](spacex/frontend/proyecto-spacex/public/images/mission%20page.jpg)
+![](spacex/frontend/proyecto-spacex/public/images/mission%20list.jpg)
+![](spacex/frontend/proyecto-spacex/public/images/admin%20page.jpg)
+
